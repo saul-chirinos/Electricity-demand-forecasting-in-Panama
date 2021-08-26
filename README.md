@@ -4,7 +4,7 @@
 
 - Accurate forecasts of electricity demand are detrimental to grid operators. They are used for effective load management, scheduling, economic and business planning, and pricing, among others.
 - The goal of this paper is to develop a statistical forecasting model to predict the last week of electricity load in Panama.
-- The optimized model utilized follows a seasonal $ARMAX(1, 2)\times(2, 2)_{24}$ order with temperature in degrees Celsius from David city as the exogenous regressor.
+- The optimized model utilized follows a seasonal ARMAX(1, 2)x(2, 2)<sub>24</sub> order with temperature in degrees Celsius from David city as the exogenous regressor.
 - To evaluate the fit and accuracy, model diagnostics were plotted, as well as the mean absolute percentage error (MAPE), mean absolute error (MAE), mean squared error (MSE), and root mean squared error (RMSE) were calculated.
 - Evaluation metrics
   - MAPE = 0.053
@@ -20,7 +20,7 @@
 
 ## Data
 
-The data demonstrated in this paper is cited from Aguilar Madrid & Antonio (2021) who exercised a machine learning model in forecasting.
+The data demonstrated in this project is cited from Aguilar Madrid & Antonio (2021) who exercised a machine learning model in forecasting.
 
 ### Grid operator (CND)
 - Historical load
